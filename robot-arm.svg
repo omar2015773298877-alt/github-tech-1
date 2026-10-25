@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" role="img" aria-label="ذراع روبوت صناعي يحمل صندوقًا مضيئًا">
+  <defs>
+    <linearGradient id="arm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#3a1183"/>
+    </linearGradient>
+    <radialGradient id="rglow" cx="50%" cy="50%" r="55%">
+      <stop offset="0" stop-color="#67e8f9" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#67e8f9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="box" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8b4fe" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity=".8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="#0d0622"/>
+  <ellipse cx="380" cy="300" rx="330" ry="200" fill="url(#rglow)"/>
+  <g opacity=".45" stroke="#7C3AED" stroke-opacity=".2" fill="none">
+    <path d="M0 120 H800 M0 240 H800 M0 360 H800"/>
+  </g>
+  <!-- قاعدة الروبوت -->
+  <rect x="270" y="392" width="220" height="46" rx="12" fill="url(#arm)"/>
+  <rect x="330" y="356" width="100" height="44" rx="12" fill="#5b21b6"/>
+  <!-- بولتونات القاعدة -->
+  <g fill="#67e8f9" opacity=".9">
+    <circle cx="300" cy="415" r="5"/><circle cx="380" cy="415" r="5"/><circle cx="460" cy="415" r="5"/>
+  </g>
+  <!-- الذراع السفلى -->
+  <g>
+    <rect x="352" y="180" width="56" height="190" rx="26" fill="url(#arm)" stroke="#c4b5fd" stroke-opacity=".4" stroke-width="2" transform="rotate(-18 380 370)"/>
+    <circle cx="380" cy="362" r="26" fill="#241056" stroke="#a78bfa" stroke-width="3"/>
+    <circle cx="380" cy="362" r="9" fill="#67e8f9"/>
+    <!-- الذراع العليا -->
+    <rect x="352" y="120" width="54" height="130" rx="26" fill="url(#arm)" stroke="#c4b5fd" stroke-opacity=".4" stroke-width="2" transform="rotate(24 405 190)"/>
+    <circle cx="432" cy="188" r="24" fill="#241056" stroke="#a78bfa" stroke-width="3"/>
+    <circle cx="432" cy="188" r="8" fill="#67e8f9"/>
+  </g>
+  <!-- المعصم والقبضة -->
+  <g transform="rotate(18 470 118)">
+    <rect x="452" y="96" width="60" height="40" rx="14" fill="#5b21b6" stroke="#c4b5fd" stroke-opacity=".4"/>
+  </g>
+  <path d="M492 128 q30 -22 56 0 q-12 34 -28 40 q-16 -6 -28 -40 Z" fill="#a78bfa"/>
+  <g stroke="#d8b4fe" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M500 158 q-14 30 2 52"/>
+    <path d="M544 158 q14 30 -2 52"/>
+  </g>
+  <!-- الصندوق المضيء -->
+  <rect x="482" y="212" width="80" height="64" rx="10" fill="url(#box)" stroke="#e9e2ff" stroke-opacity=".8" stroke-width="3"/>
+  <path d="M500 244 h44 M522 226 v36" stroke="#2a1163" stroke-width="4" stroke-linecap="round"/>
+  <g stroke="#67e8f9" stroke-width="2" opacity=".7" fill="none">
+    <path d="M470 220 l-18 -10 M470 258 l-16 8 M574 222 l16 -10"/>
+  </g>
+  <!-- خط السير -->
+  <rect x="60" y="470" width="680" height="24" rx="12" fill="#241056" stroke="#7C3AED" stroke-opacity=".6" stroke-width="2"/>
+  <g fill="#67e8f9" opacity=".75">
+    <circle cx="120" cy="482" r="4"/><circle cx="220" cy="482" r="4"/><circle cx="320" cy="482" r="4"/>
+    <circle cx="420" cy="482" r="4"/><circle cx="640" cy="482" r="4"/>
+  </g>
+  <!-- تروس خلفية -->
+  <g fill="none" stroke="#7C3AED" stroke-opacity=".4" stroke-width="3">
+    <circle cx="140" cy="180" r="52"/>
+    <circle cx="140" cy="180" r="20"/>
+    <path d="M140 118 v-14 M140 242 v14 M78 180 h-14 M202 180 h14 M97 137 l-10 -10 M183 223 l10 10 M183 137 l10 -10 M97 223 l-10 10"/>
+    <circle cx="230" cy="300" r="34"/>
+    <circle cx="230" cy="300" r="12"/>
+    <path d="M230 260 v-10 M230 340 v10 M190 300 h-10 M270 300 h10"/>
+  </g>
+  <g fill="#d8b4fe" opacity=".8">
+    <circle cx="640" cy="120" r="4"/><circle cx="680" cy="160" r="3"/><circle cx="600" cy="180" r="4"/>
+  </g>
+</svg>

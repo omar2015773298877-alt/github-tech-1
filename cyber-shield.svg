@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" role="img" aria-label="درع رقمي بقفل مضيء يرمز للأمن السيبراني">
+  <defs>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#43079C"/>
+    </linearGradient>
+    <radialGradient id="sglow" cx="50%" cy="50%" r="55%">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#43079C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0f7fd"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="#0b041e"/>
+  <ellipse cx="400" cy="260" rx="320" ry="230" fill="url(#sglow)"/>
+  <!-- دوائر تقنية -->
+  <g fill="none" stroke="#7C3AED" stroke-opacity=".35" stroke-width="2">
+    <circle cx="400" cy="260" r="180" stroke-dasharray="10 14"/>
+    <circle cx="400" cy="260" r="222" stroke-opacity=".2"/>
+    <path d="M100 120 h120 q20 0 20 20 v60"/>
+    <path d="M700 120 h-90 q-20 0 -20 20 v40"/>
+    <path d="M100 420 h110 q20 0 20 -20 v-50"/>
+    <path d="M700 420 h-100 q-20 0 -20 -20 v-30"/>
+  </g>
+  <g fill="#67e8f9" opacity=".9">
+    <circle cx="100" cy="120" r="6"/><circle cx="700" cy="120" r="6"/>
+    <circle cx="100" cy="420" r="6"/><circle cx="700" cy="420" r="6"/>
+  </g>
+  <!-- الدرع -->
+  <path d="M400 96 l170 52 v138 q0 128 -170 176 q-170 -48 -170 -176 V148 Z"
+        fill="url(#shield)" stroke="#d8b4fe" stroke-opacity=".6" stroke-width="3"/>
+  <path d="M400 128 l138 42 v114 q0 104 -138 144" fill="none" stroke="#e9e2ff" stroke-opacity=".35" stroke-width="3"/>
+  <!-- القفل -->
+  <g>
+    <rect x="400" y="150" width="104" height="82" rx="14" fill="none" stroke="url(#lock)" stroke-width="10" transform="translate(-52 0)"/>
+    <rect x="330" y="222" width="140" height="106" rx="16" fill="url(#lock)" stroke="none"/>
+    <rect x="330" y="222" width="140" height="106" rx="16" fill="none" stroke="#0b041e" stroke-opacity=".4" stroke-width="3"/>
+    <circle cx="400" cy="262" r="15" fill="#0d0622"/>
+    <path d="M400 266 v34" stroke="#0d0622" stroke-width="11" stroke-linecap="round"/>
+  </g>
+  <!-- شعارات الحماية -->
+  <g fill="#67e8f9" opacity=".85">
+    <circle cx="238" cy="180" r="5"/><circle cx="560" cy="150" r="5"/><circle cx="212" cy="360" r="5"/><circle cx="590" cy="390" r="5"/>
+  </g>
+  <g stroke="#67e8f9" stroke-opacity=".5" stroke-width="2" stroke-dasharray="4 8" fill="none">
+    <path d="M238 180 L310 170 M560 150 L520 160 M212 360 L300 330 M590 390 L520 352"/>
+  </g>
+  <!-- علامات تباعد سفلية -->
+  <g fill="#d8b4fe" opacity=".7">
+    <rect x="330" y="456" width="20" height="6" rx="3"/>
+    <rect x="360" y="456" width="20" height="6" rx="3" opacity=".7"/>
+    <rect x="390" y="456" width="20" height="6" rx="3" opacity=".45"/>
+  </g>
+</svg>
